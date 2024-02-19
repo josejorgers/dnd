@@ -19,17 +19,18 @@ This program allows you to play Dungeons and Dragons (D&D) using Python, with th
 * Clone this repository to your local machine:
 
 ```bash
-Copy code
 git clone https://github.com/your-username/dnd-with-llm-python.git
 ```
 
 * Navigate to the project directory:
 
 ```bash
-Copy code
 cd dnd-with-llm-python
 ```
-
+* Create a ```.env``` file with the following content:
+  ```
+  OPENAI_API_KEY=<your api key>
+  ```
 * Build the Docker image:
 
 ```bash
@@ -40,7 +41,6 @@ docker build -t dnd-with-llm .
 * Run the Docker container:
 
 ```bash
-Copy code
 docker run -it dnd-with-llm
 ```
 
