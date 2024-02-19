@@ -27,14 +27,13 @@ git clone https://github.com/your-username/dnd-with-llm-python.git
 ```bash
 cd dnd-with-llm-python
 ```
-* Create a ```.env``` file with the following content:
+* Create a `.env` file with the following content:
   ```
   OPENAI_API_KEY=<your api key>
   ```
 * Build the Docker image:
 
 ```bash
-Copy code
 docker build -t dnd-with-llm .
 ```
 
