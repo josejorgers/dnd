@@ -27,4 +27,13 @@ Start the chat with a warm welcome message and the first question. After receivi
 The players can make modifications to the game any time by using parentheses. For example, "(use shorter descriptions)".
 '''
 
-QUIT = '[q]: Quit'
+
+WELCOME_PROMPT = '''
+Welcome! Before starting some quick notes:
+1. You can exit the game at any time by using 'q'
+2. Write all your inputs in a single line
+3. You can modify the course of the game by writing between parentheses. Ex, '(make a plot twist)'.
+
+Let's the fun begin!
+==================================================================================================
+'''
